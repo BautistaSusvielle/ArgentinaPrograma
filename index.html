@@ -4,11 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestro primer ejemplo en HTML</title>
-</head>
-<body>
-    <h1>Titulo 1</h1>
+    <title>Proyecto final integrador (Curriculum vitae)</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
     
-    <p> hola mundo </p>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+        </style>
+</head>
+
+
+
+<body>
+
+  <header></header>
+  <main>
+    
+    <h1>Curriculum Vitae</h1>
+
+    <selection id="general">
+        <fieldset>
+            <legend id="leyenda1"><img src="icon/Descripcion.svg" alt="La imagen no se pudo cargar exitosamente">Datos Generales</legend>
+        <img src="img/42.png" alt="La imagen no se pudo cargar exitosamente">
+        <br>        
+        <img src="icon/Nombre.svg" alt="La imagen no se pudo cargar exitosamente">
+        <label> Nombre y Apellido: <strong>Devon Hudson</strong></label>
+        <br>
+        <img src="icon/Nacimiento.svg" alt="La imagen no se pudo cargar exitosamente">
+        <label> Nacimiento: <b>7/1/1995</b></label>
+        <br>
+        <img src="icon/Direccion.svg" alt="La imagen no se pudo cargar exitosamente">
+        <label> Direccion: <strong>Western Ave, Cambridge, MA 02467 - Boston (EEUU)</strong></label>
+        <br>
+        <img src="icon/Mail.svg" alt="La imagen no se pudo cargar exitosamente">
+        <label> Mail: <strong>devon.hudson@example.com</strong></label>
+        <br>
+        <img src="icon/Telefono.svg" alt="La imagen no se pudo cargar exitosamente">
+        <label> Telefono: <strong>(216) 204-3738</strong></label>
+    </fieldset>
+    </selection>
+
+    <selection id="educacion">
+        <fieldset>
+            <legend id="leyenda2"><img src="icon/Libro.svg" alt="La imagen no se pudo cargar exitosamente">Educacion</legend>
+        
+        <ul>
+            <li>    
+              Primaria:<b> St. Patrick School </b> 
+            </li>
+            <li>    
+                Secundaria: <b>Match Charter Public School</b>
+            </li>
+            <li>    
+                Universidad: <b>Universidad de Boston</b>
+            </li>
+        </ul>
+    </fieldset>
+    </selection>
+
+    <selection id="empleos">
+    <fieldset>
+     <legend id="leyenda3"><img src="icon/Trabajo.svg" alt="La imagen no se pudo cargar exitosamente">Empleos</legend>
+     <ul>
+        <li>    
+          Reparador de PC:<b> Reparaciones TI </b> 
+        </li>
+        <li>    
+            Soporte Tecnico: <b>Empresa Pylot</b>
+        </li>
+        <li>    
+            Analista de Sistema: <b>Microsoft</b>
+        </li>
+    </ul>
+  </fieldset>
+</selection>
+
+<selection id="habilidades">
+    <fieldset>
+     <legend id="leyenda4"><img src="icon/Habilidades.svg" alt="La imagen no se pudo cargar exitosamente">Habilidades</legend>
+     <ul>
+        <li>    
+          <b>* Curso de Reparacion de PC </b> 
+        </li>
+        <li>    
+          <b>* Tecnico Superior Analista de Sistema</b>
+        </li>
+        <li>    
+         <b>* Ciberseguridad</b>
+        </li>
+    </ul>
+  </fieldset>
+</selection>
+<br>
+<selection id="habilidades">
+
+  <button type="button" id="idiomas"><b>Mostrar Idiosmas Aprendidos</b></button>
+  <button type="button" id="paises"><b>Mostrar Paises Recorridos</b></button>
+  <button type="button" id="vaciar"><b>Vaciar informacion Extra</b></button>
+  
+  <br>
+  <br>
+  <b><label id="infoext"></label></b>
+
+<script src="js/informacion.js"></script>
+
+</selection>
+
+  </main>
+    
+
+          
+   
+    
 </body>
 </html>
